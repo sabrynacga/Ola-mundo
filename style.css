@@ -1,0 +1,36 @@
+:root{
+    --ink: #1B2430;
+    --inksoft: #5A6472;
+    --paper: #F4F6F2;
+    --card: #FFFFFF;
+    --line: #D8D3C7;
+    --acsent: #E8A93A;
+    --accent-dark: #C98925;
+    --done: #58b266;
+    --danger: #e40f0f;
+    --radius: 10px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100px;
+    min-height: 100px;
+    background-color: var(--paper);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    color: var(--ink);
+    font-family: 'Space Mono', monospace;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
